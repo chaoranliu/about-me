@@ -19,13 +19,13 @@ show_minimal: true             # remove all clutter
 
 navigation:
   - {file: "index.md", title: "About", sidebaricon: home}
-  - {url: "/assets/Resume_Sep_2025.pdf", title: "Download CV", icon: file-pdf}
+  - {url: "/assets/Resume_Sep_2025.pdf", title: "CV", icon: file-pdf}
   - {url: "https://www.liu-xiaomian.com", title: "Outside Academia", icon: link}
 
  
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
-  - {title: Mail, icon: envelope, url: "mailto:chaoranl@pku.org.uk"}
+  - {title: Contact, icon: envelope, url: "mailto:chaoranl@pku.org.uk"}
 
   
 sass:
