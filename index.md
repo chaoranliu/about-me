@@ -14,15 +14,9 @@ date_format: "%B %d, %Y"
 ![Profile Picture]({{ '/assets/LIUXiaomian2024_Gili_7565.jpg' | relative_url }})
 
 Assistant Professor of Marketing · Peking University HSBC Business School (UK Campus)
+*2025 — Present*
 
----
-
-## Academic Position
-
-- **Assistant Professor of Marketing**  
-  HSBC Business School, Peking University (UK Campus)  
-  *2025 — Present*
-
+[⬇️ Download CV (PDF)]({{ '/assets/Resume_sep_2025.pdf' | relative_url }})
 ---
 
 ## Education
