@@ -8,11 +8,18 @@ excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 ---
 
----
-layout: default
-title: Profile
-permalink: /profile/
----
+<style>
+/* Reduce spacing after section headings */
+h2 {
+  margin-bottom: 0.3rem;
+}
+
+/* Reduce spacing before lists */
+ul {
+  margin-top: 0.3rem;
+}
+</style>
+
 
 <div style="display:flex; align-items:center; gap:1rem; margin-bottom:0.5rem;">
   <img src="{{ '/assets/LIUXiaomian2024_Gili_7526.jpg' | relative_url }}" alt="Profile Picture" style="width:150px; border-radius:50%;" />
