@@ -44,9 +44,9 @@ BA in Arts (Double Major) — Peking University (2012)
 
 <dt>Working Papers</dt>
 <dd>
-Seller Experience and Transaction Prices on a Blockchain-Enabled Marketplace (with Xu Zhang and Anja Lambrecht) — 2024 ISMS Doctoral Dissertation Award Finalists — <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4736884">Available on SSRN</a><br>
-Generative AI and Content Homogenization: The Case of Digital Marketing (with S. Alex Yang and Tong Wang) — Funded by Institute of Entrepreneurship and Private Capital (£24,000) — <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5367123">Available on SSRN</a><br>
-Sales Manipulation on a Blockchain-Enabled Marketplace — Work in progress
+1) Seller Experience and Transaction Prices on a Blockchain-Enabled Marketplace (with Xu Zhang and Anja Lambrecht) — 2024 ISMS Doctoral Dissertation Award Finalists — <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4736884">Available on SSRN</a><br>
+2) Generative AI and Content Homogenization: The Case of Digital Marketing (with S. Alex Yang and Tong Wang) — Funded by Institute of Entrepreneurship and Private Capital (£24,000) — <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5367123">Available on SSRN</a><br>
+3) Sales Manipulation on a Blockchain-Enabled Marketplace — Work in progress
 </dd>
 
 <dt>Fun Facts</dt>  
