@@ -10,7 +10,7 @@ date_format: "%B %d, %Y"
 
 <div style="display:flex; align-items:center; gap:1rem; margin-bottom:0.5rem;">
   <img src="{{ '/assets/LIUXiaomian2024_Gili_7526.jpg' | relative_url }}" alt="Profile Picture" style="width:150px; border-radius:50%;" />
-  <p style="margin:0;">I am Chaoran Liu（刘超然）, Assistant Professor of Marketing at the UK Campus of Peking University. Welcome to my website. I am based in Oxford during office days and in London at other times. I warmly welcome opportunities to connect and exchange ideas on marketing, research, and insights. My contact details are available in the sidebar.</p>
+  <p style="margin:0;">I am Chaoran Liu（刘超然）, Assistant Professor of Marketing at the UK Campus of Peking University, with over 12 years of experience in marketing and business practice. I am based in Oxford during office days and in London at other times. I welcome opportunities to connect and exchange ideas on marketing, research, and insights.</p>
 </div>
 
 <div class="cv-tight">
