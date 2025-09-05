@@ -13,6 +13,42 @@ date_format: "%B %d, %Y"
   <p style="margin:0;">Hello, I’m Chaoran Liu（刘超然）. I am currently an Assistant Professor of Marketing at the UK Campus of Peking University. On office days, I am based in Oxford; at other times, you can usually find me in London.</p>
 </div>
 
+
+<div style="display:flex; justify-content:space-between; align-items:flex-start; gap:2rem; flex-wrap:wrap;">
+
+  <!-- Left -->
+  <div style="flex:1; min-width:220px;">
+    <strong>Academic Position</strong><br>
+    Assistant Professor of Marketing · HSBC Business School, Peking University (UK Campus) (2025 — Present)
+  </div>
+
+  <!-- Middle -->
+  <div style="flex:1; min-width:220px;">
+    <strong>Research Interests</strong><br>
+    Quantitative Marketing, Gen AI, Blockchain, Small Business
+  </div>
+
+  <!-- Right -->
+  <div style="flex:1; min-width:220px;">
+    <strong>Teaching</strong><br>
+    Module 2 Marketing Management, Applied Econometrics / Empirical Business Analysis
+  </div>
+
+</div>
+
+
+
+   
+    <strong>Education</strong><br>
+    PhD in Marketing — London Business School (2025), Advisor: Anja Lambrecht<br>
+    MS in Marketing — Columbia Business School (2013)<br>
+    BA in Finance — Peking University (2012)<br>
+    BA in Arts (Double Major) — Peking University (2012)
+  </div>
+
+</div>
+
+
 **Academic Position**  
 - Assistant Professor of Marketing · HSBC Business School, Peking University (UK Campus) (*2025 — Present*)
 - Research Interests: Quantitative Marketing, Gen AI, Blockchain, Small Business
