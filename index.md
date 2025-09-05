@@ -51,12 +51,10 @@ Sales Manipulation on a Blockchain-Enabled Marketplace — Work in progress
 
 <dt>Fun Facts</dt>  
 <dd>
-- 🎉 Co‑founded the first Chongqing Xiaomian Noodle Bar in London  
-- 🍷 Diploma in Wine & Spirits from WSET  
+- 🎉 Co‑founded the first Chongqing Xiaomian Noodle Bar in London  <br>
+- 🍷 Diploma in Wine & Spirits from WSET  <br>
 - 🐱 Proudly a qualified cat slave
 <dd>
-  
-</dl>
-</div>
+
 
 
