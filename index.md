@@ -19,7 +19,7 @@ date_format: "%B %d, %Y"
 - Teaching: Module 2 Marketing Management, Applied Econometrics/Empirical Business Analysis
 
 **Education**  
-- PhD in Marketing — London Business School (2025)  
+- PhD in Marketing — London Business School (2025), Advisor: Anja Lambrecht  
 - MS in Marketing — Columbia Business School (2013)  
 - BA in Finance — Peking University (2012)  
 - BA in Arts (Double Major) — Peking University (2012)
