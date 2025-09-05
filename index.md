@@ -11,7 +11,7 @@ date_format: "%B %d, %Y"
 
 # Chaoran Liu
 
-![Profile Picture]({{ '/assets/profile.jpg' | relative_url }})
+![Profile Picture]({{ '/assets/LIUXiaomian2024_Gili_7565.jpg' | relative_url }})
 
 Assistant Professor of Marketing · Peking University HSBC Business School (UK Campus)
 
