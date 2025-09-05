@@ -1,17 +1,109 @@
 ---
 layout: default
-title: "Home"
+title: Profile
+permalink: /profile/
 ---
 
-{% if site.show_excerpts %}
-  {% for post in site.posts %}
-    <article>
-      {% include meta.html post=post %}
-      {{ post.excerpt }}
-      <footer class="button"><a href="{{ post.url | relative_url }}">read more</a></footer>
-    </article>
-  {% endfor %}
-{% else %}
-  {% capture source %}{% include_relative archive.html title="Posts" %}{% endcapture %}
-  {{ source | split: "---" | last }}
-{% endif %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title }} · {{ site.title }}</title>
+  <style>
+    :root { --maxw: 1000px; }
+    body { margin: 0; font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }
+    .wrap { max-width: var(--maxw); margin: 0 auto; padding: 2rem 1rem 4rem; }
+    .hero { display: grid; grid-template-columns: 140px 1fr; gap: 1.5rem; align-items: center; }
+    .avatar { width: 140px; height: 140px; border-radius: 999px; object-fit: cover; box-shadow: 0 6px 20px rgba(0,0,0,.12); }
+    h1 { margin: 0 0 .25rem; font-size: clamp(1.6rem, 2.5vw, 2.2rem); }
+    .tagline { color: #555; margin: 0; }
+    .section { margin-top: 2.25rem; }
+    .list { display: grid; gap: 1rem; }
+    .item { border: 1px solid #eee; border-radius: 16px; padding: 1rem 1.25rem; box-shadow: 0 6px 20px rgba(0,0,0,.05); }
+    .head { display:flex; flex-wrap:wrap; align-items:baseline; gap:.5rem 1rem; }
+    .role { font-weight: 700; }
+    .org { color:#444; }
+    .when { margin-left:auto; color:#666; font-variant-numeric: tabular-nums; }
+    .meta { color:#666; margin:.25rem 0 0; }
+    ul { margin:.5rem 0 0 1.25rem; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <!-- Replace with your real headshot at assets/profile.jpg -->
+      <img class="avatar" src="{{ '/assets/profile.jpg' | relative_url }}" alt="Chaoran Liu profile photo" />
+      <div>
+        <h1>Chaoran Liu</h1>
+        <p class="tagline">Assistant Professor of Marketing · Peking University (UK Campus)</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Academic Position</h2>
+      <div class="item">
+        <div class="head">
+          <span class="role">Assistant Professor of Marketing</span>
+          <span class="org">· HSBC Business School, Peking University (UK Campus)</span>
+          <span class="when">2025 — Present</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Education</h2>
+      <div class="list">
+        <div class="item">
+          <div class="head">
+            <span class="role">PhD in Marketing</span>
+            <span class="org">· London Business School</span>
+            <span class="when">2025</span>
+          </div>
+        </div>
+        <div class="item">
+          <div class="head">
+            <span class="role">MS in Marketing</span>
+            <span class="org">· Columbia Business School</span>
+            <span class="when">2013</span>
+          </div>
+        </div>
+        <div class="item">
+          <div class="head">
+            <span class="role">BA in Finance</span>
+            <span class="org">· Peking University</span>
+            <span class="when">2012</span>
+          </div>
+        </div>
+        <div class="item">
+          <div class="head">
+            <span class="role">BA in Arts (Double Major)</span>
+            <span class="org">· Peking University</span>
+            <span class="when">2012</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Working Papers</h2>
+      <div class="list">
+        <div class="item">
+          <p><strong>Seller Experience and Transaction Prices on a Blockchain-Enabled Marketplace</strong><br>
+          with Xu Zhang and Anja Lambrecht — 2024 ISMS Doctoral Dissertation Award Finalists<br>
+          <em>Available on SSRN</em></p>
+        </div>
+        <div class="item">
+          <p><strong>Generative AI and Content Homogenization: The Case of Digital Marketing</strong><br>
+          with S. Alex Yang and Tong Wang — Funded by Institute of Entrepreneurship and Private Capital (£24,000)<br>
+          <em>Available on SSRN</em></p>
+        </div>
+        <div class="item">
+          <p><strong>Sales Manipulation on a Blockchain-Enabled Marketplace</strong><br>
+          Work in progress</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
