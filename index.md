@@ -22,17 +22,16 @@ date_format: "%B %d, %Y"
 
 
 <dl>
-<dt>Academic Position</dt>
-<dd>Assistant Professor of Marketing · HSBC Business School, Peking University (UK Campus) (2025 — Present)</dd>
-
 
 <dt>Research Interests</dt>
 <dd>Quantitative Marketing, Gen AI, Blockchain, Small Business</dd>
 
-
-<dt>Teaching</dt>
-<dd>Module 2 Marketing Management; Applied Econometrics / Empirical Business Analysis</dd>
-
+<dt>Academic Position</dt>
+<dd>
+  Assistant Professor of Marketing · HSBC Business School, Peking University UK Campus, 2025 - Present <br>
+  
+  Teaching: Marketing Management; Applied Econometrics / Empirical Business Analysis
+</dd>
 
 <dt>Education</dt>
 <dd>
