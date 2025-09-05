@@ -23,7 +23,7 @@ navigation:                     # accepts {file, title, url, icon, sidebaricon}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
   - {title: Mail, icon: envelope, url: "mailto:chaoranl@pku.org.uk"}
- # - {title: Github, icon: github, url: "https://github.com/chaoranliu"}
+
   
 
 comments:
