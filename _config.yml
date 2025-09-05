@@ -20,7 +20,7 @@ show_minimal: true             # remove all clutter
 navigation:
   - {file: "index.md", title: "About", sidebaricon: home}
   - {url: "/assets/Resume_Sep_2025.pdf", title: "Download CV", icon: file-pdf}
-  - {url: "https://www.liu-xiaomian.com", title: "Liu Xiaomian", icon: link}
+  - {url: "https://www.liu-xiaomian.com", title: "Outside Academia", icon: link}
 
  
 
