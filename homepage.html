@@ -1,109 +1,87 @@
 ---
-layout: default
-title: Profile
-permalink: /profile/
+title: "About"
+permalink: "/about/"
+layout: page
 ---
 
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{{ page.title }} · {{ site.title }}</title>
-  <style>
-    :root { --maxw: 1000px; }
-    body { margin: 0; font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }
-    .wrap { max-width: var(--maxw); margin: 0 auto; padding: 2rem 1rem 4rem; }
-    .hero { display: grid; grid-template-columns: 140px 1fr; gap: 1.5rem; align-items: center; }
-    .avatar { width: 140px; height: 140px; border-radius: 999px; object-fit: cover; box-shadow: 0 6px 20px rgba(0,0,0,.12); }
-    h1 { margin: 0 0 .25rem; font-size: clamp(1.6rem, 2.5vw, 2.2rem); }
-    .tagline { color: #555; margin: 0; }
-    .section { margin-top: 2.25rem; }
-    .list { display: grid; gap: 1rem; }
-    .item { border: 1px solid #eee; border-radius: 16px; padding: 1rem 1.25rem; box-shadow: 0 6px 20px rgba(0,0,0,.05); }
-    .head { display:flex; flex-wrap:wrap; align-items:baseline; gap:.5rem 1rem; }
-    .role { font-weight: 700; }
-    .org { color:#444; }
-    .when { margin-left:auto; color:#666; font-variant-numeric: tabular-nums; }
-    .meta { color:#666; margin:.25rem 0 0; }
-    ul { margin:.5rem 0 0 1.25rem; }
-  </style>
-</head>
-<body>
-  <main class="wrap">
-    <section class="hero">
-      <!-- Replace with your real headshot at assets/profile.jpg -->
-      <img class="avatar" src="{{ '/assets/profile.jpg' | relative_url }}" alt="Chaoran Liu profile photo" />
-      <div>
-        <h1>Chaoran Liu</h1>
-        <p class="tagline">Assistant Professor of Marketing · Peking University (UK Campus)</p>
-      </div>
-    </section>
+## Github Pages
 
-    <section class="section">
-      <h2>Academic Position</h2>
-      <div class="item">
-        <div class="head">
-          <span class="role">Assistant Professor of Marketing</span>
-          <span class="org">· HSBC Business School, Peking University (UK Campus)</span>
-          <span class="when">2025 — Present</span>
-        </div>
-      </div>
-    </section>
+Just fork this [repository](https://github.com/niklasbuschmann/contrast) to `your_username.github.io` and adjust the `_config.yml` to use with [Github Pages](https://pages.github.com/) and your page is done.
 
-    <section class="section">
-      <h2>Education</h2>
-      <div class="list">
-        <div class="item">
-          <div class="head">
-            <span class="role">PhD in Marketing</span>
-            <span class="org">· London Business School</span>
-            <span class="when">2025</span>
-          </div>
-        </div>
-        <div class="item">
-          <div class="head">
-            <span class="role">MS in Marketing</span>
-            <span class="org">· Columbia Business School</span>
-            <span class="when">2013</span>
-          </div>
-        </div>
-        <div class="item">
-          <div class="head">
-            <span class="role">BA in Finance</span>
-            <span class="org">· Peking University</span>
-            <span class="when">2012</span>
-          </div>
-        </div>
-        <div class="item">
-          <div class="head">
-            <span class="role">BA in Arts (Double Major)</span>
-            <span class="org">· Peking University</span>
-            <span class="when">2012</span>
-          </div>
-        </div>
-      </div>
-    </section>
+## Features
 
-    <section class="section">
-      <h2>Working Papers</h2>
-      <div class="list">
-        <div class="item">
-          <p><strong>Seller Experience and Transaction Prices on a Blockchain-Enabled Marketplace</strong><br>
-          with Xu Zhang and Anja Lambrecht — 2024 ISMS Doctoral Dissertation Award Finalists<br>
-          <em>Available on SSRN</em></p>
-        </div>
-        <div class="item">
-          <p><strong>Generative AI and Content Homogenization: The Case of Digital Marketing</strong><br>
-          with S. Alex Yang and Tong Wang — Funded by Institute of Entrepreneurship and Private Capital (£24,000)<br>
-          <em>Available on SSRN</em></p>
-        </div>
-        <div class="item">
-          <p><strong>Sales Manipulation on a Blockchain-Enabled Marketplace</strong><br>
-          Work in progress</p>
-        </div>
-      </div>
-    </section>
-  </main>
-</body>
-</html>
+ - dark mode
+ - [KaTeX](https://katex.org) included
+ - no external ressources
+ - optional sidebar
+ - archive page
+ - syntax highlighting
+ - supports comments via [disqus](https://disqus.com/) or [isso](http://posativ.org/isso/)
+
+## Installation
+
+To run locally [install Ruby](https://www.ruby-lang.org/en/documentation/installation/) and then run:
+
+```
+git clone https://github.com/niklasbuschmann/contrast.git
+cd contrast
+gem install bundler jekyll jekyll-feed
+bundle exec jekyll serve
+```
+
+## Config
+
+Your `_config.yml` could for example look like this:
+
+```yaml
+title: "Blog Title"
+author: "Blog Author"
+description: "My blog"
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
+
+# Layout
+
+show_excerpts: true             # show article excerpts instead of archive list on the home page
+show_frame: true                # display a grey frame on large screens
+show_sidebar: false             # show a sidebar instead of the usual header
+show_minimal: false             # remove all clutter
+
+# Menu                          # for available icons see https://fontawesome.com/v5/icons/
+
+navigation:                     # accepts {file, title, url, icon, sidebaricon}
+  - {file: "archive.html", sidebaricon: home}
+  - {file: "README.md", sidebaricon: address-card}
+
+external:                       # accepts {file, title, url, icon, sidebaricon}
+  - {title: Mail, icon: envelope, url: "mailto:author@example.com"}
+  - {title: Github, icon: github, url: "https://github.com/"}
+  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+
+comments:
+#  disqus_shortname: ""         # see https://disqus.com
+#  isso_domain: ""              # see https://isso-comments.de
+
+plugins:
+ - jekyll-feed
+```
+
+## Math
+
+Contrast comes preinstalled with a leightweight alternative to MathJax called [KaTeX](https://katex.org/). To display equations in a post simply set `mathjax: true` in the article's front matter. [Jektex](https://github.com/yagarea/jektex) can be used to pre-render math on the server side.
+
+## License
+
+[public domain](http://unlicense.org/)
+
+## Screenshots
+
+![screenshot](https://github.com/user-attachments/assets/8f0ef4bc-f079-495e-8c31-5867b8ccd25c)
+
+![screenshot](https://github.com/user-attachments/assets/e5e6d189-3251-41f4-baba-ff42be65f666)
+
+![screenshot](https://github.com/user-attachments/assets/d31879ae-7113-42be-b580-1e96a2aedd29)
+
+![screenshot](https://github.com/user-attachments/assets/d524ce47-8d8c-473e-afc6-79b34fae63e8)
