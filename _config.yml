@@ -17,8 +17,10 @@ show_minimal: true             # remove all clutter
 
 # Menu                          # for available icons see https://fontawesome.com/v5/icons/
 
-navigation:                     # accepts {file, title, url, icon, sidebaricon}
-  - {file: "cv.html",title:'CV', sidebaricon: home}
+navigation:
+  - {file: "index.md", title: "About", sidebaricon: home}
+  - {url: "/assets/Resume_sep_2025.pdf", title: "Download CV", icon: file-pdf}
+
  
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
