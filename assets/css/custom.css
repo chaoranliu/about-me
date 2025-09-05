@@ -1,0 +1,9 @@
+/* Reduce space after headings */
+h2 {
+  margin-bottom: 0.4rem; /* default is usually 1.5–2rem */
+}
+
+/* Reduce space before lists */
+ul {
+  margin-top: 0.2rem; /* default is often ~1rem */
+}
