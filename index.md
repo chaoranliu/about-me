@@ -1,8 +1,13 @@
 ---
 layout: default
-title: Profile
-permalink: /profile/
+title: "Chaoran Liu 刘超然"
+author: "Chaoran Liu 刘超然"
+description: "Chaoran Liu 刘超然"
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
 ---
+
 
 # Chaoran Liu
 
