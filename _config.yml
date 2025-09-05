@@ -19,7 +19,7 @@ show_minimal: true             # remove all clutter
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
   - {file: "cv.html",title:'CV', sidebaricon: home}
-  - {file: "README.md", title:'About Me', sidebaricon: address-card}
+ 
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
   - {title: Mail, icon: envelope, url: "mailto:chaoranl@pku.org.uk"}
