@@ -41,8 +41,25 @@ MS in Marketing — Columbia Business School (2013)<br>
 BA in Finance — Peking University (2012)<br>
 BA in Arts (Double Major) — Peking University (2012)
 </dd>
+
+<dt>Working Papers</dt>
+<dd>
+Seller Experience and Transaction Prices on a Blockchain-Enabled Marketplace* (with Xu Zhang and Anja Lambrecht) — 2024 ISMS Doctoral Dissertation Award Finalists — [Available on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXXX)  
+Generative AI and Content Homogenization: The Case of Digital Marketing* (with S. Alex Yang and Tong Wang) — Funded by Institute of Entrepreneurship and Private Capital (£24,000) — [Available on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=YYYYYYY)  
+Sales Manipulation on a Blockchain-Enabled Marketplace* — Work in progress
+</dd>
+
+<dt>Fun Facts</dt>  
+<dd>
+- 🎉 Co‑founded the first Chongqing Xiaomian Noodle Bar in London  
+- 🍷 Diploma in Wine & Spirits from WSET  
+- 🐱 Proudly a qualified cat slave
+<dd>
+  
 </dl>
 </div>
+
+
 **Academic Position**  
 - Assistant Professor of Marketing · HSBC Business School, Peking University (UK Campus) (*2025 — Present*)
 - Research Interests: Quantitative Marketing, Gen AI, Blockchain, Small Business
@@ -59,7 +76,4 @@ BA in Arts (Double Major) — Peking University (2012)
 - *Generative AI and Content Homogenization: The Case of Digital Marketing* (with S. Alex Yang and Tong Wang) — Funded by Institute of Entrepreneurship and Private Capital (£24,000) — [Available on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=YYYYYYY)  
 - *Sales Manipulation on a Blockchain-Enabled Marketplace* — Work in progress
 
-**Fun Facts**  
-- 🎉 Co‑founded the first Chongqing Xiaomian Noodle Bar in London  
-- 🍷 Diploma in Wine & Spirits from WSET  
-- 🐱 Proudly a qualified cat slave
+
