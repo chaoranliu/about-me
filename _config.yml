@@ -20,6 +20,7 @@ show_minimal: true             # remove all clutter
 navigation:
   - {file: "index.md", title: "About", sidebaricon: home}
   - {url: "/assets/Resume_Sep_2025.pdf", title: "Download CV", icon: file-pdf}
+  - {url: "https://www.liu-xiaomian.com", title: "Liu Xiaomian", icon: link}
 
  
 
@@ -27,6 +28,12 @@ external:                       # accepts {file, title, url, icon, sidebaricon}
   - {title: Mail, icon: envelope, url: "mailto:chaoranl@pku.org.uk"}
 
   
+sass:
+  style: compressed
+
+# Add this under your includes
+include:
+  - assets/css/custom.css
 
 comments:
 #  disqus_shortname: ""         # see https://disqus.com
